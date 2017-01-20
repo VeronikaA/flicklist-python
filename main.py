@@ -5,8 +5,10 @@ class Index(webapp2.RequestHandler):
     def getRandomMovie(self):
 
         # TODO: make a list with at least 5 movie titles
-
+        movies = ["The Big Lebowski", "Only Lovers Left Alive", "Interstellar", "The Wind Rises", "My Neighbor Totoro"]
         # TODO: randomly choose one of the movies, and return it
+        randomSelection = random.randrange(len(movies))
+        return movies[randomSelection]
 
         return "The Big Lebowski"
 
