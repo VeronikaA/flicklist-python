@@ -10,7 +10,7 @@ class Index(webapp2.RequestHandler):
           
         randomSelection = random.randrange(len(movies))
         return movies[randomSelection]
-        return "The Big Lebowski"
+        
 
     def get(self):
         # choose a movie by invoking our new function
