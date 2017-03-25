@@ -54,7 +54,7 @@ class Index(webapp2.RequestHandler):
                 <label>
                     I want to cross off
                     <select name = "old-movie">
-                        <option value="The Big Lebowski">The Big Lebowski</option>
+                        <option value="Logan">Logan</option>
                         <option value="Only Lovers Left Alive">Only Lovers Left Alive</<option>
                         <option value="Interstellar">Interstellar</option>
                         <option value="The Wind Rises">The Wind Rises</<option>
