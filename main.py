@@ -28,7 +28,7 @@ page_footer = """
 
 # a list of movies that nobody should be allowed to watch
 terrible_movies = [
-    "Gigli",
+    "The Twilight Saga",
     "Star Wars Episode 1: Attack of the Clones",
     "Paul Blart: Mall Cop 2",
     "Nine Lives"
